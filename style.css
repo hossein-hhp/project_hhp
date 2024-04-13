@@ -1,90 +1,112 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
     box-sizing: border-box;
-}
-body{
+    /* font-family: 'Bkoodek'; */
     font-family: 'Nunito', sans-serif;
+    margin: 0px;
+    padding: 0px;
     direction: rtl;
+}
+
+.ltr {
+    direction: ltr;
+}
+
+.border-darkblur{
+    border:.5px solid #164194;
 
 }
-.btn {
+
+/* btn */
+.btn-outline-darkblue {
     color: #164194;
     background-color: transparent;
     border-color: #164194;
 }
-.btn:hover {
+
+.btn-darkblue,
+.btn-outline-darkblue:hover {
     color: #fff;
     background-color: #164194;
     border-color: #164194;
 }
+
+.btn-darkblue:hover {
+    color: #fff;
+    background-color: #153b88;
+    border-color: #153b88;
+}
+
+.btn-darkblue.disabled {
+    color: #fff;
+    background-color: #91A6CD;
+    border-color: #91A6CD;
+    cursor: default;
+}
+
 /* nav */
 .nav-link {
     font-size: 20px;
     color: #164194;
     margin: 0 45px;
-  }
-/* category */
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* categorys */
+.categorys a{
+    border:0.57px solid #164194;
+    width: 143.93px;
+    height:71.96px;
+    text-decoration: none;
+}
 
 
 
 
 /* login and register */
-#login, #register{
+.bg {
     background-color: #BBD2FF;
     /* background-image: url('img/svg/bg.svg'); */
     background-image: url('img/png/bg.png');
     background-repeat: no-repeat;
-    background-position: center right;
+    background-position: top right;
 
     min-height: 100vh;
 }
-#login, #register, .auth-content{
+
+.bg .auth-content {
     width: 800px;
     margin-right: auto;
     margin-left: auto;
 }
-.w-150{
-    width: 150px;
+
+.radius-20 {
+    border-radius: 20px !important;
 }
-.darkblue{
-    background-color: #164194;
-    border: 0 ;
+
+.btn-size {
+    width: 8rem;
+    /* width: 150px; */
+    height: 50px;
+    margin: 0 auto;
 }
-.auth-content .card-body{
+
+input[type='submit'] {
+    margin-top: 70px;
+}
+
+.auth-content .card-body label {
+    margin-top: 3rem;
+}
+
+.auth-content .card-body {
     color: #164194;
 }
-.auth-content .card-body p,.auth-content .card-body label{
+
+.auth-content .card-body p,
+.auth-content .card-body label {
     text-align: right;
 }
-.auth-content .wrap{
+
+.auth-content .wrap {
     width: 340px;
+    margin: 2rem auto 3rem auto;
 }

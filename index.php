@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <!-- NAV IS HERE -->
     <div class="container">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid d-flex justify-content-between">
@@ -24,26 +25,23 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <img class="navbar-brand" src="img\png\headerLogo 6.png" />
-
-                <!-- <div class="collapse navbar-collapse" id="navbarNav"> -->
-
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">بیمه‌ها</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">شعب ما</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">بلاگ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">همکاری با ما</a>
-                        </li>
-                    </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">بیمه‌ها</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">شعب ما</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">بلاگ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">همکاری با ما</a>
+                    </li>
+                </ul>
                 <!-- </div> -->
 
-                <a href="#" class="btn btn-outline-info w-150">
+                <a href="#" class="btn btn-outline-darkblue btn-size">
                     ورود/ ثبت‌نام
                 </a>
             </div>
@@ -51,6 +49,40 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+    <!-- CATEGORY IS HERE -->
+    <div class="container">
+        <div class="d-flex justify-content-between column-gap-3 categorys">
+            <a href="#">
+                <img src="" alt="بدنه ماشین">
+                <h5>بدنه ماشین</h5>
+            </a>
+            <a href="#">
+                <img src="" alt="ثالث">
+                <h5>ثالث</h5>
+            </a>
+            <a href="#">
+                <img src="" alt="موبایل">
+                <h5>موبایل</h5>
+            </a>
+            <a href="#">
+                <img src="" alt="مهندسی">
+                <h5>مهندسی</h5>
+            </a>
+            <a href="#">
+                <img src="" alt="باربری">
+                <h5>باربری</h5>
+            </a>
+            <a href="#">
+                <img src="" alt="مسئولیت">
+                <h5>مسئولیت</h5>
+            </a>
+        </div>
+    </div>
+
+    <hr />
+    <!-- FIELDS IS HERE -->
+    .border-darkblur
 </body>
 
 </html>
