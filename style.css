@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    direction: rtl;
+
+}
+.btn {
+    color: #164194;
+    background-color: transparent;
+    border-color: #164194;
+}
+.btn:hover {
+    color: #fff;
+    background-color: #164194;
+    border-color: #164194;
+}
+/* nav */
+.nav-link {
+    font-size: 20px;
+    color: #164194;
+    margin: 0 45px;
+  }
+/* category */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* login and register */
+#login, #register{
+    background-color: #BBD2FF;
+    /* background-image: url('img/svg/bg.svg'); */
+    background-image: url('img/png/bg.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+
+    min-height: 100vh;
+}
+#login, #register, .auth-content{
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.w-150{
+    width: 150px;
+}
+.darkblue{
+    background-color: #164194;
+    border: 0 ;
+}
+.auth-content .card-body{
+    color: #164194;
+}
+.auth-content .card-body p,.auth-content .card-body label{
+    text-align: right;
+}
+.auth-content .wrap{
+    width: 340px;
+}
