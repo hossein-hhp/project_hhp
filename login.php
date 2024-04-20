@@ -18,7 +18,7 @@
 <body>
     <!-- <div class="bg-white border justify-center align-center" style="width: 75%; height: 700px;"></div> -->
 
-    <div class="bg d-flex justify-content-center align-items-center">
+    <div class="bg-login d-flex justify-content-center align-items-center">
         <div class="auth-content">
             <div class="card p-4 radius-20">
                 <form class="wrap mx-auto" action="#" method="POST">
